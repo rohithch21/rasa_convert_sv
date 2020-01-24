@@ -1,0 +1,26 @@
+session_config:
+  session_expiration_time: 60.0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- quality
+- price
+- duration
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+  utter_goodbye:
+  - text: "Bye"
+  utter_quality:
+  - text: "The football game was awesome!"
+  utter_price:
+  - text: "The price is $100"
+  utter_duration:
+  - text: "the duration was 2 hours."
+actions:
+- utter_greet
+- utter_goodbye
+- utter_quality
+- utter_price
+- utter_duration

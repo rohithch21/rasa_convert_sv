@@ -1,0 +1,9 @@
+language: en
+pipeline:
+- name: WhitespaceTokenizer
+- name: ConveRTFeaturizer
+- name: EmbeddingIntentClassifier
+policies:
+- name: MemoizationPolicy
+- name: KerasPolicy
+- name: MappingPolicy
